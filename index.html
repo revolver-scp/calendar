@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div style="display: flex; justify-content: end; align-items: center; gap:6px;">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.875 15C10.875 11.065 14.065 7.875 18 7.875C21.935 7.875 25.125 11.065 25.125 15C25.125 18.935 21.935 22.125 18 22.125C14.065 22.125 10.875 18.935 10.875 15ZM18 10.125C15.3076 10.125 13.125 12.3076 13.125 15C13.125 17.6924 15.3076 19.875 18 19.875C20.6924 19.875 22.875 17.6924 22.875 15C22.875 12.3076 20.6924 10.125 18 10.125Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.28655 13.2853C5.81804 6.83736 11.2063 1.875 17.6761 1.875H18.324C24.7937 1.875 30.182 6.83736 30.7135 13.2853C30.999 16.749 29.9291 20.1883 27.7291 22.8789L20.5395 31.6715C19.227 33.2767 16.773 33.2767 15.4605 31.6715L8.27095 22.8789C6.07097 20.1883 5.00104 16.749 5.28655 13.2853ZM17.6761 4.125C12.3772 4.125 7.96424 8.18922 7.52895 13.4701C7.29133 16.3529 8.18179 19.2154 10.0128 21.4546L17.2024 30.2473C17.6146 30.7514 18.3854 30.7514 18.7976 30.2473L25.9872 21.4546C27.8182 19.2153 28.7087 16.3529 28.4711 13.4701C28.0358 8.18922 23.6228 4.125 18.324 4.125H17.6761Z" fill="white"/>
+</svg>
+        <h1 style="color: #fff ;" class="country"></h1>
+        </div>
+        <h1 style="text-align: center; font-size: 42px; color: white;" class="time"></h1>
+        <div style="display:flex; justify-content: space-between; align-items: end;">
+        <div class="div">
+            <h1 style="color: white; font: 26px;"  class="new"></h1>
+            <p  style="color: white;" class="years"></p>
+        </div>
+        <div id="weather" class="weather-info">
+            <h1 id="error"></h1>
+        </div>
+    </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
